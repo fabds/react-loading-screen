@@ -19,7 +19,7 @@ const ScreenWrapper = styled.div`
   transition: opacity 0.4s, visibility -0.3s linear 0.5s;
 `
 const LoadingComponents = styled.div`
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
